@@ -2,6 +2,6 @@
 
 ### Papers on Efficient Training and Inference of LLMs and Other Deep Neural Networks
 
-| **Title** | **Introduction** | **Summary** |
+| **Title** | **Main Figure** | **Summary** |
 |:--|:----:|:---:|
-| [FLATQUANT: Flatness Matters for LLM Quantization](https://huggingface.co/papers/2410.09426) | <img width="2500" alt="image" src="figures/image.png"> | The authors propose a method that focuses on achieving a flatter distribution of weights and activations to enhance the effectiveness of quantization. Their approach, named FLATQUANT, identifies the optimal affine transformation for each linear layer using a lightweight, block-wise training strategy over calibration data. To reduce inference overhead, they leverage Kronecker decomposition, which helps in minimizing both memory and computational demands.
+| [FLATQUANT: Flatness Matters for LLM Quantization](https://huggingface.co/papers/2410.09426) | <img width="1200" alt="image" src="figures/image.png"> | <div style="text-align: justify;"> - Flattens weight and activation distributions for better quantization.</br> - Optimizes affine transformations per linear layer.</br> - Uses lightweight, block-wise training on calibration data.</br> - Leverages Kronecker decomposition to reduce memory and computational overhead.</div> |
